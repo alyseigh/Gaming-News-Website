@@ -1,0 +1,122 @@
+body {
+    background-color: #ffffff; /*White background */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000; /* White text */
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000; /* White Text */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#bio, #Hobbies, #Favorites {
+    margin: 20px;
+    border: 1px solid #aea2e6; /*blue border*/
+    padding: 20px;
+    background-color: #b7c7ec; /*Light blue background for section*/
+    border-radius: 10px; /*rounds edges for sections*/
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/*Styles for dark theme*/
+.dark-theme {
+    background-color: #470540; /*Dark Background */
+    color: #fff; /*Light text*/
+}
+
+.dark-theme h1, .dark-theme h2 {
+    color: #ff8c00; /*Orange Color for headers in dark theme */
+}
+
+/*Nav menu styles*/
+
+nav {
+    width: 100%; /*the navbar will take up the full width of the screen*/
+    background-color: #e6a2df;
+    border-radius: 10px; /*rounded edges for entire navbar*/
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /*flexbox for horizontal alignment*/
+    justify-content: space-around; /*Evenly spaces out items across the width*/
+}
+
+nav ul li {
+    width: 20%; /*each item takes up 20% of navbar width*/
+    text-align: center;
+}
+
+nav ul li a{
+    display: block;
+    padding: 14px 0; /*vertical padding of 14px*/
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px /*rounded edges for navbar links*/
+}
+
+nav ul li a:hover {
+    background-color: #ebcce1; /*change color on hover*/
+}
+
+
+/*Profile box style*/
+.profile-card {
+    width: 300px;
+    margin: 20px auto;
+    border: 5px solid #e6e1f9;
+    border-radius: 10px; /*rounded edges for the profile card*/
+    border-style: groove;
+    padding: 20px;
+    background-color: #aea2e6;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /*circular image*/
+    object-fit: cover;
+    margin: 0 auto;
+    max-width: 600px; 
+}
+
+
+.profile-card h3 {
+    margin: 10px 0;
+}
+
+.profile-card p {
+    margin: 5px 0;
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="Images/AFLGamez-removebg-preview.png" alt="website logo"></a>
+        </div>
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <main>
+        <section class="featured-article">
+            <h2>Featured Article</h2>
+            <!--article content here woohoo!!!-->
+            <div class="featured-image">
+                <img src="Images/black-myth-wukong-review_129s.1024.webp" alt="black myth wukong title screen">
+            </div>
+            <div class="featured-content">
+                <h2>How Black Myth Wukong is Shaping the Gaming Industry</h2>
+                <p class="author-date">By Zayne Lewinski | September 3rd, 2024</p>
+                <p>
+                     Black Myth: Wukong is a highly anticipated action role-playing game based on the classic Chinese novel "Journey to the West." 
+                     The game promises stunning graphics, innovative gameplay mechanics, and a deep connection to Chinese mythology that sets it apart 
+                     from other RPGs. With the hype growing and impressive early gameplay footage, Black Myth: Wukong is already being hailed as a game-changer 
+                     for the gaming industry.
+                </p>
+                <p>
+                    Its success so far is a result of a meticulous combination of storytelling, cultural inspiration, and technical achievement. 
+                    In this article, we explore what makes this game stand out, from its visually striking design to its unique combat system.
+                </p>
+            </div>
+        </section>
+
+        <section class="latest-news">
+            <h1>Latest News</h1>
+            <!--news stuff goes here super exciting stuff-->
+            <main class="gallery-container">
+        
+                <div class="gallery-grid">
+                    <figure>
+                        <img src="Images/incolatus 2.jpg" alt="a picture of the title page of incolatus">
+                        <figcaption>Don't Stop Girlypop: Incolatus, the new Y2K inspired shooter game</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Images/assassins creed black flag.webp" alt="assassins creed black flag">
+                        <figcaption>Assassin's Creed Black Flag and how it took the world by storm</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/hades-game.jpg" alt="a picture of zagreus from hades">
+                        <figcaption>If you die, you restart the whole game-- but there's a twist</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Images/god-of-war-ragnarok.jpg" alt="title screen for god of war ragnarok with two characters standing on a mountain">
+                        <figcaption>Tips for defeating bosses in God of War: Ragnarok</figcaption>
+                    </figure>
+        
+                </div>
+                
+                <!--gallery navigation controls go here!!-->
+                <nav class="gallery-navigation">
+                    <a href="prev" class="nav-button">Previous</a>
+                    <a href="next" class="nav-button">Next</a>
+                </nav>
+            </main>
+        </section>
+
+
+    </main>
+
+    <script>
+        document.querySelector('hamburger'),addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+    
+    <footer>
+        <p>Contact us at arcadenews@gmail.com</p>
+    </footer>
+    
+
+</body>
+
+</html>

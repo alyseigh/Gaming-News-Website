@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="Images/AFLGamez-removebg-preview.png" alt="website logo"></a>
+        </div>
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <!--main gallery section-->
+
+    <header class="article-header">
+        <h1>Gallery</h1>
+    </header>
+
+   <section class="container">
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img id="slide-1" src="Images/RE4.jpg" alt="leon kennedy and ashley from resident evil 4"/>
+            <img id="slide-2" src="Images/lehtal company.jpg" alt="picture of a man standing behind the lethal company title"/>
+            <img id="slide-3" src="Images/club-penguin.jpg" alt="picture of the blue club penguin mascot"/>
+            <img id="slide-4" src="Images/neko atsume.jpg" alt="picture of cats lying down"/>
+            <img id="slide-5" src="Images/moze honkai.jpg" alt="picture of a man standing next to text that says keeping up with star rail"/>
+
+
+
+        </div>
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+        </div>
+    </div>
+   </section>
+
+   <script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+        document.querySelector('nav ul').classList.toggle('active');
+    });
+   </script>
+
+   <footer>
+    <p>Contact us at arcadenews@gmail.com</p>
+   </footer>
+   
+</body>
+</html>
